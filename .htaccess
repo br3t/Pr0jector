@@ -1,0 +1,5 @@
+ErrorDocument 403 /error403.php
+ErrorDocument 404 /error404.php
+RewriteEngine On
+php_value upload_max_filesize 12M
+php_value post_max_size 12M

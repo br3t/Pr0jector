@@ -1,0 +1,371 @@
+body {
+	font-family: Verdana, fixedsys;
+	font-size: 10pt;
+	background-color: black;
+	color: lime;
+}
+a:link,
+a:visited,
+a:active{
+	background: transparent;
+	color: #00FFFF;
+	font-weight: bold;
+	text-decoration: underline;
+}
+a:hover{
+	background: transparent;
+	font-weight: bold;
+	color: #FFFFCC;
+}
+h3 {
+	font-size: 130%;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: .5 em;
+	padding: .4 em 0;
+	margin: 10px 5px;
+	border-top: 1px solid lime;
+	border-bottom: 1px solid lime;
+}
+h4 {
+	font-size: 110%;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: .5 em;
+	padding: .4 em 0;
+	margin: 10px 5px;
+	border-top: 1px solid lime;
+	border-bottom: 1px solid lime;
+}
+table.panel {
+	text-align: left;
+	width: 100%;
+	vertical-align: top;
+	border: 1px solid black;
+}
+table.panel td {
+	margin: 5px 0;
+}
+table.panel td a {
+	color: #000000;
+	background: #00FF00;
+	display: block;
+	font: bold;
+	padding: 10px;
+	text-decoration: none;
+	width: 130px;
+	height: 35px;
+	text-transform: uppercase;
+}
+table.panel td a:hover {
+	background: #00FFFF;
+	text-transform: uppercase;
+	color: #000000;
+}
+div#info {
+	position: relative;
+	width: 500px;
+	height: 500px;
+	background-color: black;
+	border-color: lime;
+	border-style: dashed;
+	border-width: 1px;
+	margin: 0px;
+	padding: 10px;
+}
+/* стиль сообщения об ошибке регистрации*/
+.rse  {
+	color: red;
+	font-weight: bold;
+}
+/* стиль сообщения об успешной регистрации */
+.rwe {
+	color: cyan;
+	font-weight: bold;
+}
+.news {
+    border-color: white;
+	border-style: dashed;
+	border-width: 1px;
+	margin: 10px;
+	padding: 10px;
+	background-color: #222222;
+	vertical-align: top;
+	text-align: center;
+}
+.linkbar {
+    border-color: #555555;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 10px;
+	background-color: black;
+	vertical-align: top;
+	text-align: left;
+}
+.eform {
+    border-color: cyan;
+	border-style: dotted;
+	border-width: 1px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #444444;
+	vertical-align: top;
+	text-align: center;
+	width: 165px;
+}
+.eform a:link,
+.eform a:visited,
+.eform a:active{
+	padding: 0px;
+}
+.eform a:hover{
+	padding: 0px 7px;
+}
+.notice {
+    border-color: #FF0000;
+	border-style: solid;
+	border-width: 3px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #222222;
+	vertical-align: top;
+	text-align: center;
+	width: 165px;
+}
+.event_calendar {
+    border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	margin: 10px;
+	padding: 5px;
+	background-color: #111111;
+	vertical-align: top;
+	text-align: center;
+	width: 165px;
+}
+.event_calendar_today {
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+}
+img.smallicon {
+	width: 18px;
+	height: 18px;
+	border: 0px;
+}
+textarea.desc {
+	width: 450px;
+	height: 120px;
+	font-family: Verdana, sans-serif;
+	font-size: 10pt;
+	/*border: 3px solid #00ff00;
+	background-image: url(bg.gif);
+	background-position: bottom right;
+	background-repeat: no-repeat;*/
+}
+.logo {
+	background-image: URL('bgimage.png'); 
+}
+img.avatar {
+	width: 50px;
+	height: 50px;
+	border: 0px;
+}
+img.smile {
+	width: 18px;
+	height: 18px;
+	border: 0px;
+	cursor: pointer;
+}
+.reqf {
+	color: red;
+	font-weight: bold;
+}
+option.user {
+	background: #000000;
+}
+table.card {
+	width: 100%;
+	vertical-align: top;
+	background-color: black;
+	border-color: lime;
+	color: lime;
+	border-style: dashed;
+	border-width: 1px;
+	margin: 5px;
+	padding: 10px;
+}
+table.caltab {
+	background: #111111;
+}
+.holidays {
+	background: #444444;
+}
+.hint {
+	position: relative;
+    display: none;
+}
+.minutes {
+	text-decoration: underline;
+}
+/* user_links style */
+.user0:link,
+.user0:visited,
+.user0:active {
+	color: #FF0000;
+}
+.user1:link,
+.user1:visited,
+.user1:active {
+	color: #00CC00;
+}
+.user2:link,
+.user2:visited,
+.user2:active {
+	color: #FFFFAA;
+}
+.user3:link,
+.user3:visited,
+.user3:active {
+	color: #AAADEA;
+}
+.user0:hover,
+.user1:hover,
+.user2:hover,
+.user3:hover {
+	background: transparent;
+	font-weight: bold;
+	color: #FFFFCC;
+}
+option.user3 {
+	color: #AAADEA;
+	background: #000000;
+	font-weight: bold;
+}
+option.user2 {
+	color: #FFFFAA;
+	background: #000000;
+	font-weight: bold;
+}
+option.user1 {
+	color: #00CC00;
+	background: #000000;
+	font-weight: bold;
+}
+option.user0 {
+	color: #FF0000;
+	background: #000000;
+	font-weight: bold;
+}
+select.user {
+	color: #00FF00;
+	background: #000000;
+	font-weight: bold;
+}
+.cent {
+	text-align: center;
+}
+.rig {
+	text-align: right;
+}
+.bot {
+	vertical-align: bottom;
+}
+.smf {
+	font-size: 80%;
+}
+.b {
+	font-weight: bold;
+}
+.mbody {
+	margin: 5px;
+	padding: 5px;
+	background-color: #434343;
+}
+dt {
+	margin: 5px;
+}
+img {
+	border: 0px;
+	text-decoration: none;
+}
+img.plogo {
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+.form {
+	margin: 5px;
+	width: 99%;
+	padding: 3px;
+	border-collapse: separate;
+	border-spacing: 0px;
+}
+.calendar {
+	text-align: center;
+	vertical-align: bottom;
+	border-width: 8px 1px 1px 1px; 
+	border-color: lime;
+	border-style: solid;
+	background-color: #000000;
+	color: lime;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 27px;
+	height: 30px;
+	position: relative;
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+th {
+	font-size: 110%;
+}
+.list_odd {
+	background-color: #000000;
+}
+.list_even {
+	background-color: #444444;
+}
+/* all about posts */
+.posts {
+	border-width: 0px;
+	padding: 0px;
+	margin: 5px;
+	width: 99%;
+}
+.posts th{
+	vertical-align: top;
+	border-width: 0px 0px 0px 1px; 
+	border-color: #000000 #000000 #000000 #FFFFFF;
+	border-style: solid;
+}
+.posts td{
+	vertical-align: top;
+	border-width: 0px 0px 0px 1px; 
+	border-color: #000000 #000000 #000000 #FFFFFF;
+	border-style: solid;
+}
+.posts_odd {
+	background-color: #222222;
+}
+.posts_even {
+	background-color: #555555;
+}
+/*-------------------------*/
+.notlink {
+	background: transparent;
+	color: #00FFFF;
+	font-weight: bold;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.notlink:hover {
+	background: transparent;
+	color: #FFFFCC;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+}
